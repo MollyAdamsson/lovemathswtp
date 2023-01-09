@@ -13,9 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+/**
+ *The main game creates a loop when the page is loaded */
 function runGame () {
-
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
+
 
 function checkAnswer() {
 
